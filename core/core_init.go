@@ -1,18 +1,24 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package core
 
 import (
 	"os"
 	"path/filepath"
 
-	"github.com/euforia/thrap/config"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/orchestrator"
-	"github.com/euforia/thrap/packs"
-	"github.com/euforia/thrap/registry"
-	"github.com/euforia/thrap/secrets"
-	"github.com/euforia/thrap/store"
-	"github.com/euforia/thrap/utils"
-	"github.com/euforia/thrap/vcs"
+	"github.com/sniperkit/snk.fork.thrap/config"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/orchestrator"
+	"github.com/sniperkit/snk.fork.thrap/packs"
+	"github.com/sniperkit/snk.fork.thrap/registry"
+	"github.com/sniperkit/snk.fork.thrap/secrets"
+	"github.com/sniperkit/snk.fork.thrap/store"
+	"github.com/sniperkit/snk.fork.thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/vcs"
 )
 
 // load all thrap configs from the core config.

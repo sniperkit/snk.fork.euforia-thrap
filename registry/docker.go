@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package registry
 
 import (
 	"errors"
 
 	"github.com/docker/docker/api/types"
-	"github.com/euforia/thrap/config"
-	"github.com/euforia/thrap/crt"
+	"github.com/sniperkit/snk.fork.thrap/config"
+	"github.com/sniperkit/snk.fork.thrap/crt"
 )
 
 var (

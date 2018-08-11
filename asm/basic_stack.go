@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package asm
 
 import (
 	"strings"
 
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/packs"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/vars"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/packs"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/vars"
 )
 
 // BasicStackConfig holds a configurations to build canned stacks.  Currently

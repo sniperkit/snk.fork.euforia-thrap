@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package manifest
 
 import (
@@ -7,10 +13,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/utils"
-	"github.com/euforia/thrap/vcs"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/vcs"
 	"gopkg.in/yaml.v2"
 )
 

@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package core
 
 import (
 	"path/filepath"
 
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/vcs"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/vcs"
 )
 
 // EnsureResources ensures that all stack resources exist or creates them as

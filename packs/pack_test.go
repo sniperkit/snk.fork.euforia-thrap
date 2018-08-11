@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package packs
 
 import (
@@ -6,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/euforia/thrap/utils"
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/sniperkit/snk.fork.thrap/utils"
 	"github.com/stretchr/testify/assert"
 	git "gopkg.in/src-d/go-git.v4"
 )
@@ -53,12 +59,12 @@ func Test_Packs_Load(t *testing.T) {
 	err = p.Load("ffo.com:8080")
 	assert.Equal(t, errPackSourceNotSupported, err)
 
-	err = p.Load("https://github.com/euforia/thrap-packs.git")
+	err = p.Load("https://github.com/sniperkit/snk.fork.thrap-packs.git")
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	err = p.Load("https://github.com/euforia/thrap-packs.git")
+	err = p.Load("https://github.com/sniperkit/snk.fork.thrap-packs.git")
 	assert.Equal(t, errPackDirExists, err)
 
 	for _, s := range []string{"dev", "datastore", "web"} {

@@ -1,6 +1,14 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package thrapb
 
-import digest "github.com/opencontainers/go-digest"
+import (
+	digest "github.com/opencontainers/go-digest"
+)
 
 // NewArtifact returns a Artifact instance with the id and tags
 func NewArtifact(id string, tags []string) *Artifact {

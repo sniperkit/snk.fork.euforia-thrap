@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package core
 
 import (
 	"context"
 	"sync"
 
-	"github.com/euforia/thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
 	"google.golang.org/grpc"
 )
 

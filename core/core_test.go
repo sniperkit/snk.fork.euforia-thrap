@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package core
 
 import (
@@ -8,11 +14,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/euforia/thrap/config"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/manifest"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/config"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/manifest"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/utils"
 	"github.com/stretchr/testify/assert"
 )
 

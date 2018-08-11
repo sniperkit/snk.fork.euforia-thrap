@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package thrapb
 
 import (
@@ -6,9 +12,9 @@ import (
 	"sort"
 
 	"github.com/euforia/pseudo/scope"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/vars"
 	"github.com/hashicorp/hil/ast"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/vars"
 )
 
 var (

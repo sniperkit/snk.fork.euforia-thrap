@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package vcs
 
 import (
@@ -7,9 +13,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/euforia/thrap/utils"
 	"github.com/go-ini/ini"
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/sniperkit/snk.fork.thrap/utils"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/config"
 )

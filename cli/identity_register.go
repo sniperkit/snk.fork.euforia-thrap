@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package cli
 
 import (
@@ -10,12 +16,12 @@ import (
 	"path/filepath"
 
 	"github.com/euforia/base58"
-	"github.com/euforia/thrap/config"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/utils"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/config"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/utils"
 	"gopkg.in/urfave/cli.v2"
 )
 

@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package thrapb
 
 import (
@@ -9,9 +15,9 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/euforia/pseudo/scope"
-	"github.com/euforia/thrap/consts"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hil/ast"
+	"github.com/sniperkit/snk.fork.thrap/consts"
 )
 
 // CompType is the component type

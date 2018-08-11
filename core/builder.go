@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package core
 
 import (
@@ -8,12 +14,12 @@ import (
 	"path/filepath"
 
 	"github.com/docker/docker/api/types"
-	"github.com/euforia/thrap/crt"
-	"github.com/euforia/thrap/metrics"
-	"github.com/euforia/thrap/registry"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/vars"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/crt"
+	"github.com/sniperkit/snk.fork.thrap/metrics"
+	"github.com/sniperkit/snk.fork.thrap/registry"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/vars"
 )
 
 // BuildOptions are options to perform a build-publish

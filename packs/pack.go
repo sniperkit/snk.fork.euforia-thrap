@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package packs
 
 import (
@@ -6,11 +12,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/euforia/thrap/utils"
-	"github.com/pkg/errors"
-	git "gopkg.in/src-d/go-git.v4"
-
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/utils"
+	git "gopkg.in/src-d/go-git.v4"
 )
 
 const packManfiestFile = "manifest.hcl"

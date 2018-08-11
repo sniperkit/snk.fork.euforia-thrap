@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package asm
 
 import (
@@ -7,14 +13,14 @@ import (
 	"time"
 
 	"github.com/euforia/pseudo/scope"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/dockerfile"
-	"github.com/euforia/thrap/packs"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/utils"
-	"github.com/euforia/thrap/vars"
-	"github.com/euforia/thrap/vcs"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/dockerfile"
+	"github.com/sniperkit/snk.fork.thrap/packs"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/vars"
+	"github.com/sniperkit/snk.fork.thrap/vcs"
 	git "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 	"gopkg.in/yaml.v2"

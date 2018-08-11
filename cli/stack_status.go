@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package cli
 
 import (
@@ -6,10 +12,10 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/euforia/thrap/core"
-	"github.com/euforia/thrap/manifest"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/core"
+	"github.com/sniperkit/snk.fork.thrap/manifest"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/utils"
 	"gopkg.in/urfave/cli.v2"
 )
 

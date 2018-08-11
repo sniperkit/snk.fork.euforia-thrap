@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package cli
 
 import (
@@ -5,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/euforia/thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/utils"
 )
 
 func promptForSupported(prompt string, supported []string, defaultVal string) string {

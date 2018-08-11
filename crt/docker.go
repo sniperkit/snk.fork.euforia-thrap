@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package crt
 
 import (
@@ -14,8 +20,8 @@ import (
 	"github.com/docker/docker/pkg/archive"
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/euforia/thrap/dockerfile"
-	"github.com/euforia/thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/dockerfile"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
 	"golang.org/x/net/context"
 )
 

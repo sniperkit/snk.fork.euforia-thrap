@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package core
 
 import (
@@ -10,9 +16,9 @@ import (
 	"time"
 
 	"github.com/euforia/pseudo/scope"
-	"github.com/euforia/thrap/config"
-	"github.com/euforia/thrap/metrics"
-	"github.com/euforia/thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/config"
+	"github.com/sniperkit/snk.fork.thrap/metrics"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
 )
 
 func printScopeVars(scopeVars scope.Variables) {

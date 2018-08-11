@@ -1,14 +1,19 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package cli
 
 import (
 	"fmt"
 
-	"github.com/euforia/thrap/orchestrator"
-
-	"github.com/euforia/thrap/manifest"
-	"github.com/euforia/thrap/store"
-	"github.com/euforia/thrap/utils"
-	"github.com/euforia/thrap/vcs"
+	"github.com/sniperkit/snk.fork.thrap/manifest"
+	"github.com/sniperkit/snk.fork.thrap/orchestrator"
+	"github.com/sniperkit/snk.fork.thrap/store"
+	"github.com/sniperkit/snk.fork.thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/vcs"
 	"gopkg.in/urfave/cli.v2"
 )
 

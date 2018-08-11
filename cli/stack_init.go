@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package cli
 
 import (
@@ -5,19 +11,18 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/urfave/cli.v2"
-
-	"github.com/euforia/thrap/analysis"
-	"github.com/euforia/thrap/asm"
-	"github.com/euforia/thrap/config"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/core"
-	"github.com/euforia/thrap/manifest"
-	"github.com/euforia/thrap/packs"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/utils"
-	"github.com/euforia/thrap/vars"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/analysis"
+	"github.com/sniperkit/snk.fork.thrap/asm"
+	"github.com/sniperkit/snk.fork.thrap/config"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/core"
+	"github.com/sniperkit/snk.fork.thrap/manifest"
+	"github.com/sniperkit/snk.fork.thrap/packs"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/utils"
+	"github.com/sniperkit/snk.fork.thrap/vars"
+	"gopkg.in/urfave/cli.v2"
 )
 
 var usageTextInit = `thrap init [command options] [directory]

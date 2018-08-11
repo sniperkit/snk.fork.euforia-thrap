@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package asm
 
 import (
@@ -6,9 +12,9 @@ import (
 
 	"github.com/euforia/pseudo"
 	"github.com/euforia/pseudo/scope"
-	"github.com/euforia/thrap/consts"
-	"github.com/euforia/thrap/dockerfile"
-	"github.com/euforia/thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/consts"
+	"github.com/sniperkit/snk.fork.thrap/dockerfile"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
 )
 
 // ComponentAssembler implements a component assembly interface

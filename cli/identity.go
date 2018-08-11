@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package cli
 
 import (
 	"context"
 	"io"
 
-	"github.com/euforia/thrap/thrapb"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
 	"gopkg.in/urfave/cli.v2"
 )
 

@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:25:29.898780201 +0200 CEST m=+0.118184110
+- Status: analyzed
+*/
+
 package packs
 
 //
@@ -10,13 +16,13 @@ import (
 
 	"github.com/euforia/pseudo"
 	"github.com/euforia/pseudo/scope"
-	"github.com/euforia/thrap/dockerfile"
-	"github.com/euforia/thrap/thrapb"
-	"github.com/euforia/thrap/vars"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hil/ast"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/snk.fork.thrap/dockerfile"
+	"github.com/sniperkit/snk.fork.thrap/thrapb"
+	"github.com/sniperkit/snk.fork.thrap/vars"
 )
 
 var (
